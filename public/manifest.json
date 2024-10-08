@@ -1,7 +1,7 @@
 {
-    "name": "Travel Bucket List",
-    "short_name": "TravelList",
-    "description": "A smart travel bucket list saving app",
+    "name": "Travel Bucket List by Tapit.Club",
+    "short_name": "Travel Bucket List by Tapit.Club",
+    "description": "A smart travel bucket list saving app by Tapit.Club",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
