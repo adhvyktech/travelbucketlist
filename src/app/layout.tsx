@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Travel Bucket List",
-  description: "A smart travel bucket list saving app",
+  title: "Travel Bucket List by Tapit.Club",
+  description: "A smart travel bucket list saving app by Tapit.Club",
   manifest: "/manifest.json",
   themeColor: "#000000",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
