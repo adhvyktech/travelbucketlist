@@ -24,6 +24,7 @@ import {
 import { Calendar as CalendarWidget } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { format } from "date-fns"
+import Image from 'next/image';
 
 type Destination = {
   id: number
@@ -193,10 +194,12 @@ export default function TravelBucketList() {
               </CardHeader>
               <CardContent>
                 {dest.image && (
-                  <img
+                  <Image
                     src={dest.image}
                     alt={dest.name}
-                    className="w-full h-48 object-cover mb-4 rounded-md"
+                    width={500} // Specify appropriate width
+                    height={300} // Specify appropriate height
+                    className="w-full h-64 object-cover my-4 rounded-md"
                   />
                 )}
                 <p className="text-sm">{dest.notes}</p>
@@ -223,9 +226,11 @@ export default function TravelBucketList() {
                       </DialogDescription>
                     </DialogHeader>
                     {dest.image && (
-                      <img
+                      <Image
                         src={dest.image}
                         alt={dest.name}
+                        width={500} // Specify appropriate width
+                        height={300} // Specify appropriate height
                         className="w-full h-64 object-cover my-4 rounded-md"
                       />
                     )}
